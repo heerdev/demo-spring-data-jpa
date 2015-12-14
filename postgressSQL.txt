@@ -1,0 +1,1 @@
+\dt: list all tables in the current database
