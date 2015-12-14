@@ -24,22 +24,22 @@ public class AppConfiguration {
 		dataSource.setUrl("jdbc:postgresql://ec2-50-16-190-77.compute-1.amazonaws.com:5432/d9v2aol7oe1v51?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory");
 		dataSource.setUsername("pxdxyrsduewvbf");
 		dataSource.setPassword("yk41xyT2RCfSkMxa_kDZnFUSQl");
-		return dataSource;*/
+		return dataSource; */
 		
-/*		URI dbUri = new URI(System.getenv("DATABASE_URL"));
+		//URI dbUri = new URI(System.getenv("DATABASE_URL"));
 
-        String username = dbUri.getUserInfo().split(":")[0];
-        String password = dbUri.getUserInfo().split(":")[1];
-        String dbUrl = "jdbc:postgresql://ec2-50-16-190-77.compute-1.amazonaws.com:5432/d9v2aol7oe1v51?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory";
+        //String username = dbUri.getUserInfo().split(":")[0];
+        //String password = dbUri.getUserInfo().split(":")[1];
+        String dbUrl = "jdbc:postgresql://ec2-54-204-39-67.compute-1.amazonaws.com:5432/d7olntougckd1p?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory";
 
         BasicDataSource basicDataSource = new BasicDataSource();
         basicDataSource.setUrl(dbUrl);
-        basicDataSource.setUsername("");
-        basicDataSource.setPassword("");
+        basicDataSource.setUsername("felukcgfcwfpps");
+        basicDataSource.setPassword("pFwbPiOIwJfsTaWNiYtyXEHbK8");
         return basicDataSource;
-*/
 
-		URI dbUri = new URI(System.getenv("DB_URL"));
+
+		/*URI dbUri = new URI(System.getenv("DB_URL"));
 		 	//System.out.println(dbUri.toString());
 	        String username = dbUri.getUserInfo().split(":")[0];
 	        String password = dbUri.getUserInfo().split(":")[1];
@@ -51,6 +51,7 @@ public class AppConfiguration {
 	        basicDataSource.setPassword(password);
 
 	     return basicDataSource;
+		 */
 	}
 
 	@Bean
