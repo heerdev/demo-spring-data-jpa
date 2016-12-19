@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"config","com","controllers"})
+@ComponentScan(basePackages = {"config","com","controllers","model"})
 public class DemoApplication {
 	
 

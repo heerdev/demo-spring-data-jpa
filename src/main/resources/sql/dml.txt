@@ -1,2 +1,2 @@
 ####Insert into Product table
-insert into "Product" values ('BENZ CLA', 'Car','Mercedes Benz CLA','30000','EXCELLENT','NEW','1','BENZ');
+insert into "product" values ('BENZ CLA', 'Car','Mercedes Benz CLA','30000','EXCELLENT','NEW','1','BENZ');

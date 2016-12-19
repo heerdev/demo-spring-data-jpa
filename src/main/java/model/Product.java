@@ -1,14 +1,17 @@
 package model;
 
-import javax.persistence.Entity;
+import java.math.BigDecimal;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 @Entity
 public class Product {
 	
+	@Id
 	private String productName;
 	private String productCategory;
 	private String productDescription;
-	private double productPrice;
+	private BigDecimal productPrice;
 	private String productCondition;
 	private String productStatus;
 	private int unitInStock;
@@ -31,10 +34,10 @@ public class Product {
 	public void setProductDescription(String productDescription) {
 		this.productDescription = productDescription;
 	}
-	public double getProductPrice() {
+	public BigDecimal getProductPrice() {
 		return productPrice;
 	}
-	public void setProductPrice(double productPrice) {
+	public void setProductPrice(BigDecimal productPrice) {
 		this.productPrice = productPrice;
 	}
 	public String getProductCondition() {

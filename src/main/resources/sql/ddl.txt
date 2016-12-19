@@ -1,0 +1,15 @@
+CREATE TABLE product (
+	"productname" varchar NOT NULL,
+	"productcategory" varchar NOT NULL,
+	"productdescription" varchar NOT NULL,
+	"productprice" money NOT NULL,
+	"productcondition" varchar NOT NULL,
+	"productstatus" varchar NOT NULL,
+	"unitinstock" int4 NOT NULL,
+	"productmanufacturer" varchar NOT NULL
+) WITH (
+  OIDS=FALSE
+);
+
+
+
